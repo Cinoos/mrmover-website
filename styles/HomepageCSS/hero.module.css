@@ -9,11 +9,13 @@
   color: white;
 }
 
+/* IMAGE */
 .heroImage {
   object-fit: cover;
-  z-index: -2;
+  z-index: 0;
 }
 
+/* OVERLAY ABOVE IMAGE */
 .overlay {
   position: absolute;
   inset: 0;
@@ -21,10 +23,13 @@
     rgba(0, 0, 0, 0.55),
     rgba(0, 0, 0, 0.55)
   );
-  z-index: -1;
+  z-index: 1;
 }
 
+/* CONTENT ON TOP */
 .heroContent {
+  position: relative;
+  z-index: 2;
   max-width: 800px;
   padding: 20px;
 }
