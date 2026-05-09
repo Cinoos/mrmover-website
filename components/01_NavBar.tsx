@@ -11,7 +11,7 @@ export default function NavBar({ openQuote }: NavBarProps) {
   const [menuOpen, setMenuOpen] = useState(false);
 
   const closeMenu = () => {
-    setIsOpen(false);
+    setMenuOpen(false);
   };
 
 
