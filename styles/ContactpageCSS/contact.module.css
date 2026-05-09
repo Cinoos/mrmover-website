@@ -1,0 +1,69 @@
+.contactSection {
+  padding: 50px 20px;
+  background: #f8fbff;
+  text-align: center;
+}
+
+/* Headings */
+.title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #111;
+}
+
+.subtitle {
+  color: #555;
+  margin-bottom: 50px;
+  font-size: 1.1rem;
+}
+
+/* Big Phone Button */
+.phoneBox {
+  display: inline-block;
+  font-size: 1.6rem;
+  font-weight: 700;
+  background: #2f80ed;
+  color: white;
+  padding: 20px 40px;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: 0.2s ease;
+  margin-bottom: 60px;
+}
+
+.phoneBox:hover {
+  background: #1c5fd1;
+  transform: translateY(-3px);
+}
+
+/* Info Section */
+.contactDetails {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  flex-wrap: wrap;
+}
+
+.contactDetails h4 {
+  color: #2f80ed;
+  margin-bottom: 8px;
+}
+
+.contactDetails p {
+  font-weight: 500;
+  color: #333;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .phoneBox {
+    width: 100%;
+    font-size: 1.4rem;
+    padding: 18px;
+  }
+
+  .contactDetails {
+    gap: 30px;
+  }
+}

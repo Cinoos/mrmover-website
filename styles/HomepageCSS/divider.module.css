@@ -1,0 +1,22 @@
+.divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 15px;
+  padding: 40px 20px;
+  background: #ffffff;
+}
+
+.line {
+  flex: 1;
+  height: 1px;
+  background: #e6e6e6;
+}
+
+.text {
+  font-size: 0.95rem;
+  color: #2f80ed;
+  font-weight: 600;
+  white-space: nowrap;
+}

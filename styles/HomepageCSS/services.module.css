@@ -1,0 +1,81 @@
+.services {
+  padding: 30px 20px;
+  text-align: center;
+  background: #f8fbff;
+}
+
+.services h2 {
+  font-size: 2.2rem;
+  margin-bottom: 50px;
+  font-weight: 700;
+  color: #111;
+}
+
+/* Grid Layout */
+.serviceGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* Individual Card */
+.card {
+  background: white;
+  padding: 35px 25px;
+  border-radius: 12px;
+
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+
+  transition: all 0.25s ease;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 15px 30px rgba(47, 128, 237, 0.15);
+}
+
+/* Title */
+.card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 12px;
+  color: #2f80ed;
+  font-weight: 600;
+}
+
+/* Description */
+.card p {
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.5;
+}
+
+.viewAll {
+  margin-top: 50px;
+  background: #2f80ed;
+  color: white;
+  border: none;
+  padding: 14px 36px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.viewAll:hover {
+  background: #1c5fd1;
+}
+
+@media (max-width: 900px) {
+  .serviceGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .serviceGrid {
+    grid-template-columns: 1fr;
+  }
+}

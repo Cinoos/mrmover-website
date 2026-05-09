@@ -1,0 +1,141 @@
+/* =========================
+   BASE NAVBAR LAYOUT
+========================= */
+
+.navbar {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+
+  padding: 12px 24px;
+  background: white;
+  position: relative;
+  z-index: 1000;
+
+  border-bottom: 1px solid #eee;
+}
+
+/* Logo */
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+/* =========================
+   NAV LINKS (DESKTOP)
+========================= */
+
+.navLinks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 28px;
+
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navLinks a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 0.95rem;
+
+  transition: 0.2s ease;
+}
+
+.navLinks a:hover {
+  color: #2f80ed;
+}
+
+/* =========================
+   QUOTE BUTTON
+========================= */
+
+.quoteBtn {
+  background: #2f80ed;
+  color: white;
+
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+
+  font-weight: 600;
+  cursor: pointer;
+
+  transition: 0.2s ease;
+}
+
+.quoteBtn:hover {
+  background: #1c5fd1;
+  transform: translateY(-1px);
+}
+
+/* =========================
+   HAMBURGER (MOBILE ONLY)
+========================= */
+
+.hamburger {
+  display: none;
+  font-size: 28px;
+
+  background: none;
+  border: none;
+
+  cursor: pointer;
+  color: #333;
+}
+
+/* =========================
+   MOBILE MENU
+========================= */
+
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+    justify-self: end;
+  }
+
+  .navLinks {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+
+    background: white;
+    flex-direction: column;
+
+    gap: 18px;
+    padding: 20px 0;
+
+    display: none;
+
+    border-bottom: 1px solid #eee;
+  }
+
+  .showMenu {
+    display: flex;
+  }
+
+  .quoteBtn {
+    width: 80%;
+    margin-top: 10px;
+  }
+}
+
+/* =========================
+   SMALL POLISH
+========================= */
+
+/* smoother interaction everywhere */
+.navLinks a,
+.quoteBtn {
+  transition: all 0.2s ease;
+}
+
+/* optional: subtle navbar shadow when scrolling later */
+.navbar {
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.03);
+}

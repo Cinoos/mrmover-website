@@ -1,0 +1,46 @@
+.banner {
+  width: 100%;
+  padding: 40px 20px;
+
+  background: linear-gradient(90deg, #2f80ed, #56ccf2);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+  color: white;
+}
+
+.content {
+  max-width: 850px;
+}
+
+.content h2 {
+  font-size: 2.2rem;
+  font-weight: 700;
+
+  margin-bottom: 15px;
+}
+
+.content p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+
+  opacity: 0.95;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .banner {
+    padding: 50px 15px;
+  }
+
+  .content h2 {
+    font-size: 1.6rem;
+  }
+
+  .content p {
+    font-size: 1rem;
+  }
+}

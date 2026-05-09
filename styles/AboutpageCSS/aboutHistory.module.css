@@ -1,0 +1,75 @@
+.history {
+  max-width: 900px;
+  margin: 0 auto;
+
+  padding: 60px 20px;
+
+  color: #111;
+}
+
+/* Section title */
+.history h2 {
+  font-size: 2rem;
+  font-weight: 700;
+
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Paragraph text */
+.history p {
+  font-size: 1.05rem;
+  line-height: 1.8;
+
+  color: #444;
+  margin-bottom: 16px;
+}
+
+/* Sub section (Why Choose Us) */
+.subSectionTitle {
+  font-size: 1.6rem;
+  font-weight: 700;
+
+  margin-top: 40px;
+  margin-bottom: 20px;
+
+  text-align: center;
+}
+
+/* List styling */
+.list {
+  list-style: none;
+  padding: 0;
+
+  max-width: 700px;
+  margin: 0 auto;
+
+  text-align: left;
+}
+
+.list li {
+  padding: 10px 0;
+  font-size: 1.05rem;
+
+  color: #444;
+  border-bottom: 1px solid #eee;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .history {
+    padding: 40px 15px;
+  }
+
+  .history h2 {
+    font-size: 1.6rem;
+  }
+
+  .subSectionTitle {
+    font-size: 1.3rem;
+  }
+
+  .list li {
+    font-size: 1rem;
+  }
+}
