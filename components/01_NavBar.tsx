@@ -20,7 +20,7 @@ export default function NavBar({ openQuote }: NavBarProps) {
 
       <div className={styles.logo}>
         <Link href="/">
-          <Image src="/LOGO.png" alt="logo" width={80} height={80} />
+          <Image src="/LOGO.png" alt="logo" width={110} height={110} />
         </Link>
       </div>
 
