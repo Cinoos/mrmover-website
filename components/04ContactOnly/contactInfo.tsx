@@ -14,6 +14,15 @@ export default function ContactInfo() {
         📞 (416) 906-7994
       </a>
 
+      <p className={styles.subtitle}>
+        Email Us
+      </p>
+
+      {/* Big Phone CTA */}
+      <a href="tel:4169067994" className={styles.phoneBox}>
+        mrminormover21@gmail.com
+      </a>
+
       {/* Extra Info */}
       <div className={styles.contactDetails}>
         <div>

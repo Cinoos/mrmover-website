@@ -2,7 +2,9 @@
   padding: 10px 20px;
   padding-bottom: 30px;
   background: #f8fbff;
+  color: #111;
 }
+
 
 .title {
   text-align: center;
@@ -71,4 +73,12 @@
   .content p {
     font-size: 0.95rem;
   }
+}
+
+.pricingGuide .title {
+  text-align: center;
+  font-size: 2.2rem;
+  margin-bottom: 50px;
+  font-weight: 700;
+  color: #111 !important;
 }
