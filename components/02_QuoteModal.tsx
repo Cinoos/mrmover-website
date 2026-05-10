@@ -19,6 +19,8 @@ export default function QuoteModal({ closeQuote }: QuoteModalProps) {
         <h2>Get Your Free Quote</h2>
         <p>Call Or Text us:</p>
         <h3>(416) 906-7994</h3>
+        <p>Email Us:</p>
+        <h3>mrminormover21@gmail.com</h3>
       </div>
     </div>
   );

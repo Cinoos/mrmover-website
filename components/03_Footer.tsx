@@ -34,6 +34,7 @@ export default function Footer() {
         <div className={styles.section}>
           <h4>Contact</h4>
           <p>(416) 906-7994</p>
+          <p>mrminormover21@gmail.com</p>
           <p>Mississauga, Ontario</p>
         </div>
 
