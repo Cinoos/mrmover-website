@@ -18,10 +18,9 @@ export default function ContactInfo() {
         Email Us
       </p>
 
-      {/* Big Phone CTA */}
-      <a href="tel:4169067994" className={styles.phoneBox}>
-        mrminormover21@gmail.com
-      </a>
+      <a href="mailto:mrminormover21@gmail.com" className={styles.phoneBox}>
+          mrminormover21@gmail.com
+        </a>
 
       {/* Extra Info */}
       <div className={styles.contactDetails}>

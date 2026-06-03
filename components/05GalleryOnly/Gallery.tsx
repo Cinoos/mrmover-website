@@ -14,6 +14,18 @@ const images: GalleryImage[] = [
   { src: "/packing.jpg", alt: "Boxes organized for move" },
   { src: "/stuff.jpg", alt: "Apartment move setup" },
   { src: "/commercial.jpg", alt: "Truck unloading" },
+
+  { src: "/gallery photos/20260515_191019.jpeg", alt: "Wagon" },
+  { src: "/gallery photos/1000143837.jpeg", alt: "Team carrying furniture" },
+  { src: "/gallery photos/1000144189.jpeg", alt: "Boxes organized for move" },
+  { src: "/gallery photos/1000147414.jpeg", alt: "Boxes organized for move" },
+  { src: "/gallery photos/1000148182.jpeg", alt: "Apartment move setup" },
+  { src: "/gallery photos/1000148375.jpeg", alt: "Truck unloading" },
+  { src: "/gallery photos/1000148401.jpeg", alt: "Moving truck loaded" },
+  { src: "/gallery photos/1000148501.jpeg", alt: "Furniture wrapped safely" },
+  { src: "/gallery photos/1000151399.jpeg", alt: "Boxes organized for move" },
+  
+
 ];
 
 export default function Gallery() {

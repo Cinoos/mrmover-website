@@ -17,7 +17,7 @@ export default function Footer() {
           />
 
           <p>
-            Reliable, affordable moving services across the GTA.
+            Reliable, affordable moving services across the GTHA.
           </p>
         </div>
 
@@ -44,7 +44,7 @@ export default function Footer() {
           <p>Toronto</p>
           <p>Brampton</p>
           <p>Mississauga</p>
-          <p>GTA & Surrounding</p>
+          <p>GTHA & Surrounding</p>
         </div>
 
       </div>

@@ -19,7 +19,7 @@ export default function WhyChooseUs() {
 
       <div className={styles.right}>
         <Image
-          src="/truck.jpg"
+          src="/gallery photos/1000151399.jpeg"
           alt="Moving Service"
           fill
           className={styles.image}
